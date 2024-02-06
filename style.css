@@ -90,3 +90,31 @@
 .scoreArea {
   display: none;
 }
+
+@media(max-width:500px){
+  .inner-div h2 {
+    font-size: 25px;
+    font-weight: 400;
+    margin: 5px 0 20px 0;
+
+  }
+  
+  .inner-div li {
+    margin-top: 15px;
+    font-size: 15px;
+    
+  }
+  .btn {
+    padding: 10px 20px;
+    font-size: 15px;
+  }
+  #showscore h3 {
+    font-size: 16px;
+    text-align: center;
+  }
+  #showscore .btn {
+    margin-top: 1rem;
+    font-size: 13px;
+  
+  }
+}
